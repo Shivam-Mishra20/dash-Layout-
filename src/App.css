@@ -1,0 +1,20 @@
+/* color variables */
+
+:root {
+  --color-primary: #003366;
+  --color-primary-light: #3b82f6;
+  --color-secondary: #f97316;
+  --color-secondary-light: #ffedd5;
+  --color-text: black;
+  --color-text-light: #6b7280;
+  --color-background: #f9fafb;
+  --color-border: #e5e7eb;
+}
+
+.border-custom-black {
+  @apply border-black border-2;
+}
+
+.border-custom-orange {
+  @apply border-orange-500 border-2;
+}
